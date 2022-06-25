@@ -1,6 +1,6 @@
 export class CreateUserDto {
   //campos que o usuario terá
   email: string;
-  username: string;
+  name: string;
   password: string;
 }
