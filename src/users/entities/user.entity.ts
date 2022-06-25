@@ -3,6 +3,7 @@ import { Document } from 'mongoose';
 
 export type UserDocument = User & Document;
 
+//criamos os schema
 @Schema()
 export class User {
   @Prop()
